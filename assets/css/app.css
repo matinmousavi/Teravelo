@@ -1,0 +1,75 @@
+@import "bootstrap.css";
+@import "reset.css";
+@import "variables.css";
+@import "helper.css";
+
+/* header */
+
+header .header__search-icon {
+  font-size: 0.9rem;
+}
+
+header > section {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./../images/7.jpg) no-repeat center center;
+  padding: 5rem 0;
+}
+header > section .header__title,
+.enjoy-video span {
+  font-family: "Comic Neue", cursive;
+  font-size: 4rem;
+}
+header > section > a {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem !important;
+}
+
+/* popular */
+.popular {
+  padding-top: 5rem;
+}
+.popular .popular__card {
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.popular__card1 {
+  background: url(./../images/3.jpg);
+}
+.popular__card2 {
+  background: url(./../images/5.jpg);
+}
+.popular__card3 {
+  background: url(./../images/6.jpg);
+}
+.popular__card4 {
+  background: url(./../images/4.jpg);
+}
+.popular__card5 {
+  background: url(./../images/8.jpg);
+}
+.popular__card6 {
+  background: url(./../images/2.jpg);
+}
+/* subscribe */
+.subscribe {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./../images/9.jpg) no-repeat top center;
+  background-size: cover;
+}
+.subscript__subtitle {
+  font-size: 0.7rem;
+}
+.subscript__input {
+  width: 95%;
+  font-size: 0.7rem;
+}
+
+/* enjoy video */
+
+.enjoy-video {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./../images/6.jpg) no-repeat center center;
+  background-size: cover;
+}

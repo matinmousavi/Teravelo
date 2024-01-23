@@ -1,0 +1,12 @@
+.bg-primary-color {
+    background-color: var(--primary-color);
+}
+.bg-second-color {
+    background-color: var(--second-color);
+}
+.bg-dark-blue-color {
+    background-color: var(--dark-blue-color);
+}
+.text-second-color {
+    color: var(--second-color);
+}
